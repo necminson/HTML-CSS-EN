@@ -1,0 +1,58 @@
+
+
+h1{
+   color: #33ff33; 
+   font-size: 45px; 
+   background-color: black;
+   font-family: cursive;
+}
+/*Class is used for adding style for multiple elements.
+Class is the most common way to add a style to web elements*/
+.my-style{
+   color:#a64dff;
+   font-family: cursive; 
+   text-align: center;
+   background-color: rgb(255, 255, 128);
+
+}
+/*ID is used for styling unique elements
+*/
+#my-unique-id{
+
+   color: red;
+   background-color: black;
+
+}
+
+h4{
+   color: gold; 
+   font-size: 45px; 
+   font-family: 'Courier New', Courier, monospace; 
+   background-color: lightblue;
+   text-align: right;
+}
+.img1{
+
+   width:200px;
+   border: 5px solid red;
+   margin: 10px;
+}
+.img2{
+   width: 200px;
+   height: 200px;
+   border: 5px  dashed green;
+   padding: 10px;
+}
+table{
+   border: 2px solid red ;
+   background-color: lightgray;
+   box-shadow: 3px 3px 3px black;
+}
+th{
+   border: 2px solid red ;
+   background-color: darkgray;
+}
+td{
+   border: 1px solid purple;
+   color: green;
+}
