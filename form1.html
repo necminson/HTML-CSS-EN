@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>TechPro Education Student Registration Form</h1>
+    <style>
+        h1{
+
+            text-align: center;
+
+        }
+        fieldset{
+            width: 500px;
+        }
+        body{
+            background-image: url(images/office_design_desks_80537_1600x1200.jpg);
+        }
+    </style>
+    <center>
+        <fieldset>
+            <legend> Admission Form</legend>
+    <form >
+        <table>
+            <tr>
+            <td><label >Name</label></td>
+            <td><input type="text"></td> 
+           </tr>
+               
+           <tr>
+            <td><label >Surname</label></td>
+            <td><input type="text"></td> 
+            </tr>
+
+            <tr>
+                <td><label >e-mail</label></td>
+                <td><input type="email"></td> 
+            </tr>
+            <tr>
+                <td><label >password</e-mail></label></td>
+                <td><input type="password"></td> 
+            </tr>
+            <tr>
+                <td><label >Gender</label></td>
+                <td>
+                    <input type="radio" name="gender">Male
+                </td> 
+                <!-- radio value is used for getting single option from the user-->
+                <td>
+                    <input type="radio" name="gender">Female
+                </td> 
+            </tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            <tr>
+                 <td><label>Select Languges</label></td>
+                 <td>
+                    <input type="checkbox"> English
+                    <input type="checkbox"> Spanish <!-- Checkbox is used for getting multiple options-->
+                    <input type="checkbox"> French
+                </td>
+             </tr>
+
+             <tr>
+                <td><label >Select Country</label></td>
+                <td>
+                    <select>
+                        <option disabled selected> Select a country  </option>
+                        <option>USA</option>
+                        <option>Germany</option>
+                        <option>Turkiye</option>
+                        <option>Italy</option>
+                        <option>Azerbaijan</option>
+                    </select>
+                </td>
+             </tr>
+            
+             <tr>
+                <td>
+                    <label>Upload Your Photo</label>
+                </td>
+            </tr>
+             <td><input type="file"></td>
+             <tr><td><label>Phone Number</label></td></tr>
+             <td><input type="number"></td>
+
+             <tr><td><label>Address</label></td></tr>
+             <td>
+                <textarea name="" cols="30" rows="10" style="resize: none;">
+
+                </textarea>
+             </td>
+
+            
+
+            
+            <tr>
+                <td><input type="submit" value="Save"></td>
+           
+            </tr>
+            
+        </table>
+    
+    </form>
+</fieldset>
+</center>
+
+</body>
+</html>
